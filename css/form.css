@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+
+h2{
+    padding: 5%;
+    color: white;
+}
+
+form{
+    margin-top: 2%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff78;
+    border-radius: 25px;
+    border: 5px solid #2F9331;
+}
+input{
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+}
+textarea{
+    resize: none;
+    padding: 1%;
+    margin-top: 2%;
+    width: 70%;
+    align-self: center;
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    
+}
+
+.boton{
+    margin-bottom: 2%;
+    border-color:#2F9331;
+    background-color: #8BCF21;
+    color: #2F9331;
+}
+.boton-home{
+    border-color:#2F9331;
+    background-color: #8BCF21;
+    width: 7%;
+    height: 5%;
+    position: fixed;
+    right: 90%;
+    top: 5%;
+}
+
+.boton-home a{
+    color: #2F9331;
+    text-decoration: none;
+}
+.boton-home:hover a{
+    color: white;
+    text-decoration: none;
+}
+.boton-home:hover{
+    border-color:#8BCF21;
+    background-color: #2F9331;
+    color: white;
+}
+
+.boton:hover{
+    border-color:#8BCF21;
+    background-color: #2F9331;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #8BCF21;
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #8BCF21;
+}

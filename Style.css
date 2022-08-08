@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 *{
-    font-family: 'Cairo', sans-serif;
-font-family: 'Shadows Into Light', cursive;
+    font-family: 'Gugi', cursive;
+}
+body{
+    background-image: linear-gradient(to right, black 0%, #070656 50%, #065c8d);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.103);
+    padding: 5%;
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+}
+h2{
+    margin: 5%;
+    color: white;
+    font-size: 2rem;
+}
+
+.buttons{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+}
+a{
+    width: 300px;
+    height: 300px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black;
+}
+
+a:nth-child(1){
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+a:hover{
+    filter: contrast(0.8);
+    /* opacity: 0.6; */
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
