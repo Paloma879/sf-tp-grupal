@@ -63,7 +63,6 @@ textarea{
     border-color:#2F9331;
     background-color: #8BCF21;
     width: 7%;
-    height: 5%;
     position: fixed;
     right: 90%;
     top: 5%;
@@ -102,4 +101,8 @@ textarea::placeholder{
 textarea:focus{
     outline: none;
     border-bottom: 2px solid #8BCF21;
+}
+
+#btn-submit{
+    width: 18%;
 }

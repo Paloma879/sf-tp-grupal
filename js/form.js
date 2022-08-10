@@ -2,6 +2,7 @@ let inputName = document.querySelector('#name');
 let email = document.querySelector('#email');
 let coment = document.querySelector('textarea');
 let buttonSubmit = document.getElementById('btn-submit')
+let body = document.querySelector('body')
 
 let nameSaved = inputName.value;
 let emailSaved = email.value;
