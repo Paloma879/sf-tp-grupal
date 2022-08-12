@@ -28,8 +28,7 @@ body{
     background-color: rgb(243, 236, 172);
     border: none;
     padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
+    text-decoration:double;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
@@ -45,9 +44,8 @@ body{
 }
 nav{
     display: flex;
-    align-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
+    text-align:end;
     margin-left: auto;
     margin-right: auto;    
 }
