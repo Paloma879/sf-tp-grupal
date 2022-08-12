@@ -53,6 +53,11 @@ a:nth-child(1){
     background-size: cover;
     background-repeat: no-repeat;
 }
+a:nth-child(2){
+    background-image: url(https://images.mubicdn.net/images/film/175904/cache-234516-1508898060/image-w1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 a:hover{
