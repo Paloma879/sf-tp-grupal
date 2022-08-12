@@ -12,6 +12,41 @@ body{
     justify-content: center;
 }
 
+/*  --------------------- */
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin:auto;
+    padding: 1em;
+    width: 25em;
+}
+
+#results, 
+p,
+h5,
+h4 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#results,
+form {
+    border-radius: 25px;
+    border: 5px solid #2F9331;
+    background-color: #ffffff78;
+}
+
+/*  --------------------- */
+
 
 h2{
     padding: 5%;
@@ -19,15 +54,15 @@ h2{
 }
 
 form{
-    margin-top: 2%;
-    width: 45%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 40em;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #ffffff78;
-    border-radius: 25px;
-    border: 5px solid #2F9331;
 }
+
+
 input{
     width: 70%;
     margin: auto;

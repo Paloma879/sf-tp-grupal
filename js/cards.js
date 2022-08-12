@@ -2,7 +2,6 @@
 const getRick = "https://rickandmortyapi.com/api/character/?page="
 
 
-
 fetch(getRick)
     .then((response) => response.json())
     .then((data) => dataRyM(data));
@@ -34,3 +33,11 @@ const dataRyM = (data) => {
     document.getElementById("container").innerHTML = contenido;
 }
 
+const btnScrollTop = document.getElementById("btnScrollTop");
+
+btnScrollTop.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+})

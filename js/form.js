@@ -1,26 +1,10 @@
-// let inputName = document.querySelector('#name');
-// let email = document.querySelector('#email');
-// let coment = document.querySelector('textarea');
-// let buttonSubmit = document.getElementById('btn-submit')
-// let body = document.querySelector('body')
-
-// let nameSaved = inputName.value;
-// let emailSaved = email.value;
-// let comentSaved = coment.value;
-
-// buttonSubmit.addEventListener('click', () =>{
-//     console.log('Name guardado', nameSaved);
-//     console.log(emailSaved);
-//     console.log(comentSaved);
-// });
 
 let inputName = document.querySelector('#name');
 let email = document.querySelector('#email');
 let coment = document.querySelector('textarea');
-let buttonSubmit = document.getElementById('btn-submit')
-let body = document.querySelector('body')
+let buttonSubmit = document.getElementById('btn-submit');
+let body = document.querySelector('body');
 
-// let divResults = document.getElementById('results')
 
 buttonSubmit.addEventListener('click', () =>{
 
@@ -43,7 +27,7 @@ buttonSubmit.addEventListener('click', () =>{
 
 
 
-    console.log('Name guardado:', inputName.value);
+    console.log('Nombre guardado:', inputName.value);
     console.log("Email guardado:", email.value);
-    console.log("comentario guardado:", coment.value);
+    console.log("Comentario guardado:", coment.value);
 });
