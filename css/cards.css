@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: rymfont;
-    src: url(/css/Rick-and-Morty-Font/get_schwifty.ttf);
+    src: url(./Rick-and-Morty-Font/get_schwifty.ttf);
 }
 
 body {
-    background-image: url(/css/3.jpg);
+    background-image: url(./3.jpg);
     background-size: auto;
     background-attachment: fixed;
 }
